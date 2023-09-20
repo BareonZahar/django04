@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://www.filimo.com/shot/wp-content/uploads/2022/07/Kung-Fu-Panda.jpg");
+    background-size: cover;
+}
+h4{
+    position: absolute;
+    color: sandybrown;
+    margin-top:-40px;
+    margin-left: 200px;
+}
+table{
+    position: relative;
+    color: deeppink;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 280px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 20px ;
+}
+input{
+    text-align: center;
+    color: darkred;
+}
+input:hover{
+    background-color: #ff004d;
+    color: white;
+    border-radius: 10px;
+    border-bottom: solid 5px #608af4;
+}
+.int{
+    position: absolute;
+    margin-left: 780px;
+    margin-top: -150px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #ff00dd;
+    color: gold;
+}
+.int:hover{
+    background-color: #ff004d;
+    color: white;
+    border-radius: 20px;
+    border-bottom: solid 10px #96f460;
+}

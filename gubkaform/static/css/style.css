@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://img.okezone.com/content/2022/08/16/206/2649075/dreamworks-garap-kung-fu-panda-4-siap-tayang-maret-2024-4ukkfMrzfA.jpg");
+    background-size: cover;
+    margin-left: 50px;
+    font-size: 40px;
+    color: yellow;
+}
+a{
+    color:cyan;
+    text-decoration: none;
+}
+p{
+    position: absolute;
+    /*opacity: 1;*/
+    margin-left: 210px;
+    font-size: 35px;
+    margin-top: -35px;
+     border-radius: 10px;
+     background-color: #ff00dd;
+}
+b{
+    font-size: 50px;
+}
+/*a:hover p{*/
+/*    border-radius: 10px;*/
+/*    background-color: #ff00dd;*/
+/*    opacity: 1;*/
+/*    color: lime;*/
+/*}*/

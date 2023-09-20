@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ваш персонаж</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+</head>
+<body>
+
+<div class="row">
+  <div class="col text-center">
+      <h4>{{ k1 }} ты Панда</h4>
+     <img  src="{% static  k8  %}" alt="" width="250">
+      <h4>Поколение: {{ k2 }}</h4>
+      <h4>Разговариваешь: на {{ k3 }}</h4>
+      <h4>Твой email: {{ k4 }}</h4>
+      <h4>Ты умеешь готовить: {{ k5 }}</h4>
+      <h4>С тобой живет кот: {{ k6 }}</h4>
+      <h4>Любишь мультфильмы: {{ k7 }}</h4>
+      <h3 class="t">Тебя ждет твоя команда -</h3>
+  </div>
+  <div class="col text-center">
+      <h1>Твоя команда</h1>
+  </div>
+  <div class="col sm-6">
+      <h3>Познакомся со своей командой</h3>
+      <h5>Нажми на карточку</h5>
+      <a href="https://kungfupanda.fandom.com/wiki/Po"><img  class="kar" src="{% static 'img/pand.jpg' %}" width="100" height="80"></a>
+     <p>По</p>
+      <a href="https://kung-fu-panda.fandom.com/ru/wiki/Тигрица"><img class="kar" src="{% static 'img/lev.jpg' %}" width="100" height="80"></a>
+       <p>Тигрица</p>
+      <a href="https://kung-fu-panda.fandom.com/ru/wiki/Богомол"><img class="kar" src="{% static 'img/bogom.jpg' %}" width="100" height="80"></a>
+      <p>Богомол</p>
+       <a href="https://kung-fu-panda.fandom.com/ru/wiki/Гадюка"><img class="kar" src="{% static 'img/zmeys.jpg' %}" width="100" height="80"></a>
+      <p>Гадюка</p>
+        <a href="https://kung-fu-panda.fandom.com/ru/wiki/Журавль"><img class="kar" src="{% static 'img/gur.jpg' %}" width="100" height="80"></a>
+      <p>Журавль</p>
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu"><img class="kar" src="{% static 'img/shifu.jpg' %}" width="100" height="80"></a>
+      <p>Шифу</p>
+</div>
+</div>
+</body>
+</html>
